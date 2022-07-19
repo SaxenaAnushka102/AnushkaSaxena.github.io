@@ -1,0 +1,380 @@
+<!--
+Author: Anushka Saxena
+Author URL: http://AnushkaSaxena.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Portfolio | Anushka Saxena</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">My Work</a>
+							
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1><a href="index.html">ANUSHKA SAXENA</a></h1>
+					<h2 class="w3ls-bnrtext">I am <span> a Technoid. </span>Meticulous.<span> </span> Inquisitive.</h2>
+					<p class="w3ls-p">I believe to ideate, innovate & create. </p>
+					<a href="https://docs.google.com/document/d/1vs2M01C6ud3fyRi2T0rFBTCvx8gw4T-c8ck3U5vo1MQ/edit?usp=sharing" class="buy btn-wayra scroll">Resume</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">About me</h3>
+			<div class="agileits-about-grid">
+				<h4>I'am an ardent Information Technology student, currently pursuing an integrated degree of Master of Technology from IIPS, DAVV, Indore. 
+					My sole focus always remains in solving problems in the most efficient way. 
+					Right now I'm working out with different tech-domains and enhancing my skill-set so as to become proficient enough to serve my country & make people's  lives easier.
+				</h4>
+			</div>
+			<a href="#contact" class="wthree- about-link scroll">Wanna work with me?</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+				<span class="fa fa-magic" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Hobbies</h4>
+				<h5>Singing</h5>
+				<h5>Gardening</h5>
+				<h5>Photography</h5>
+				<h5>Travelling</h5>
+				<h5>Reading</h5>
+				
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Education</h4>
+				<h5>Kendriya Vidyalaya, Dhar</h5>
+            <p>Higher Secondary- Physics, Chemistry, Maths</p>
+            <p>CBSE class XII board examination (2018-19)- 85%  
+            <h5>Devi Ahilya Vishwavidyalaya</h5>
+            <p> International Institute of Professional Studies,
+				 Indore (M.P.)</p>
+            <p>Integrated M. Tech. in Information Technology
+
+                (2019 – 2024)</p>
+				<p>Current CGPA: 8.67 </p>
+            
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-certificate  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Certifications</h4>
+				<h5>NPTEL
+					<p>Introduction to Internet of Things</p>
+					<p>Issue date- May 2022</p>
+						
+				</h5>
+			   
+				<h5>Microsoft 
+				<p>Microsoft Certified Azure Fundamentals</p>
+					<p>Issue date- May 2022</p>
+			</h5>
+				<h5>Google Cloud Community India</h5>
+				<p>30 Days of Google Cloud </p>
+				<p>Issue date- November 2021</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+				<h3>Languages: C, C++, Java <br>
+					Google Cloud Platform <br>
+					Microsoft Azure <br>
+					Technical Content Writing <br>
+				</h3>
+			</div>
+			
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">MY work</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+		
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g1.jpg">
+										<a href="https://errortb.blogspot.com/2021/01/is-your-phone-original.html">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g1.jpg" alt="Technical Blog" class="img-responsive" />
+										</figure>
+									
+									</a>
+								</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Technical Blog</h5>
+									<p>ERRORTB</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g2.jpg">
+										<a href="https://drive.google.com/file/d/1F65ITHdlK3UUvq9w76tsjHllQUArMEwL/view">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g2.jpg" alt="Technical Content Writing" class="img-responsive" />
+										</figure>
+									</a>
+								</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Technical Content Writing</h5>
+									<p>Engg Forum</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g3.jpg">
+										<a href="https://youtu.be/mfi4pNwVZfo">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g3.jpg"  alt="Inet Addressing in Java" class="img-responsive" />
+										</figure>
+									</a>
+								</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Internet Addressing in Java</h5>
+									<p>Youtube</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g4.jpg">
+										<a href="https://www.cloudskillsboost.google/public_profiles/96d33ec5-8824-426f-8ebf-46dce71cb778">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g4.jpg" alt="GCRF Program" class="img-responsive" />
+										</figure>
+									</a>
+								</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Google Cloud Ready Facilitator Program</h5>
+									<p>Google Cloud India</p>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+
+	
+	
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Let's Connect!</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Mail me</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="anushkasaxena102@gmail.com">anushkasaxena102@gmail.com</a><br>
+							<a href="anushka.saxena.iips@gmail.com">anushka.saxena.iips@gmail.com</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>9691078288</p>
+						
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>C/H-59, Kadambari Nagar,<br> Housing Board Colony, Near Silicon City, Rau, 
+								 Indore,PIN-452012,<br> Madhya Pradesh  INDIA.
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Social Handles</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a href="https://github.com/SaxenaAnushka102"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://twitter.com/Anushka__Saxena?s=08"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/anushka-saxena-a12847177/"><i class="fa fa-linkedin"></i></a></li>
+								
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						
+						<form action="index.html" method="post" class="agile_form">
+							<label class="header">Name</label>
+							<div class="icon1 w3ls-name1">
+								<input placeholder=" " name="first name" type="text" required="">
+							</div>
+							<div class="icon2">
+								<label class="header">Email</label>
+								<input placeholder=" " name="Email" type="email" required="">
+							</div>
+							
+							<label class="header">Your message</label>
+							<textarea class="w3l_summary" required=""></textarea>
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<div class="agileits_w3layouts-footer">
+		<p>If you've come this far, you're Awesome!</p>
+		<p>© 2022 All rights reserved | Made with ❤️ by Anushka Saxena.</a></p>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
